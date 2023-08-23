@@ -10,7 +10,7 @@ public class NUMEROLETRA {
             if (Character.isLetter(letraNumero)) {
                 if (letraNumero>=65 && letraNumero<=90) {
                     System.out.println("El carácter es una letra mayúscula.");
-                } else {
+                } else ( letraNumeero>=97 && letraNumero<=122){
                     System.out.println("El carácter es una letra minúscula.");
                 }
             } else if (letraNumero>=48 && letraNumero<=57) {
